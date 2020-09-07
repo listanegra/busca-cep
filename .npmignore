@@ -1,2 +1,5 @@
 tsconfig.json
+.github
+
+!**/*.d.ts
 **/*.ts
