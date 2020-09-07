@@ -1,0 +1,29 @@
+{
+    "name": "busca-cep-web",
+    "version": "1.0.0",
+    "description": "API para consulta de endereços",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VitorMac10/busca-cep.git"
+    },
+    "keywords": [],
+    "author": "Vitor Macedo",
+    "license": "GPL",
+    "bugs": {
+        "url": "https://github.com/VitorMac10/busca-cep/issues"
+    },
+    "homepage": "https://github.com/VitorMac10/busca-cep#readme",
+    "devDependencies": {
+        "@types/cheerio": "^0.22.21",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.2"
+    },
+    "dependencies": {
+        "axios": "^0.20.0",
+        "cheerio": "^1.0.0-rc.3"
+    }
+}
